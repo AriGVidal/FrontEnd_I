@@ -1,0 +1,66 @@
+/* Estilos generales*/
+a {
+    color: #000000;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+nav {
+    font-family: 'Inter regular';
+}
+
+
+/* Main*/
+.banner>h1 {
+    font-weight: 900;
+    font-family: 'Inter regular', sans-serif;
+    color: #FFFFFF;
+    size: 48px;
+    height: 58px;
+    width: 475px;
+    left: 8px;
+    top: 363px;
+    text-align: justify;
+}
+.banner>p {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 18px;
+}
+.banner {
+    background-color: wheat;
+    background-image: url("../img/lemon-pie.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 460px;
+}
+.canasta {
+    margin-right: 10px;
+}
+.lista {
+    margin-right: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #ccc;
+    text-align: center;   
+}
+.icono-social {
+    margin-left: 10px;
+}
