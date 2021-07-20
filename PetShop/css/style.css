@@ -1,0 +1,31 @@
+/* Head */
+head {
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+
+.ofertas {
+    background-color: #222222;
+}
+p {
+color: #F3F3F3;
+;
+}
+.Logo {
+    background-color: #F0A83E;
+}
+h1 {
+    color:#FFFFFF;
+}
+span {
+    color: #3C2313;
+}
+nav ul li {
+display: inline-block;
+color: #FFFFFF;
+}
+/* Main */
+
+/* Footer */
