@@ -1,0 +1,86 @@
+
+*{ font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* Header */
+header>p{
+    background-color:#1CD1B0;
+    color:#000000;
+}
+.titulo{
+    background-color: #00669F;
+    color: #000000;
+    position: sticky; top: 0px;
+}
+
+/* Main */
+
+.tarjetasHeroes{
+    display: flex;
+}
+
+.card-batman{
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+.card-img-batman{
+    background-image: url(img/Batman/imagenFondoBatman);
+}
+.hearth{
+    color: red;
+}
+.card-text-batman{
+    background-color:#F3F3F3;
+    color: #333333;
+    position: relative;
+}
+
+.card-batman-boton{
+    color:#F3F3F3;
+}
+
+.card-harley{
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+.card-img-harley{
+    background-image: url(img/Harley/imagenFondoHarley);
+}
+.card-text-harley{
+    color:#000000;
+    background-color:#F3F3F3;
+    position: relative;
+}
+.card-harley-boton{
+    color:#F3F3F3;
+}
+
+.card-wonder{
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+.card-img-wonder{
+    background-image: url(img/Wonderwoman/wonderwoman);
+}
+.card-text-wonder{
+    color:#000000;
+    background-color:#F3F3F3;
+    position: relative;
+}
+.card-wonder-boton{
+    color:#F3F3F3;
+}
+
+/* Footer */
+
+footer{
+
+    background-color: #00669F;
+    ;
+}
+footer>p{
+    color: #FFF9F9;
+    ;
+}

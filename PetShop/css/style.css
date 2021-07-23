@@ -1,3 +1,10 @@
+*{
+    margin: 0 auto;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+
 /* Head */
 head {
 font-family: 'Roboto', sans-serif;
