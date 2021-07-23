@@ -9,3 +9,6 @@ https://arigvidal.github.io/FrontEnd_I/PetShop
 
 // Proyecto CV de Batman
 https://arigvidal.github.io/FrontEnd_I/CV_Batman
+
+// Proyecto Heroes
+https://arigvidal.github.io/FrontEnd_I/Heroes/
