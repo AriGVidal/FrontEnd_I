@@ -1,7 +1,5 @@
 *{
     margin: 0 auto;
-    border: 1px solid #000;
-    box-sizing: border-box;
 }
 
 
@@ -15,6 +13,7 @@ font-family: 'Roboto', sans-serif;
 
 .ofertas {
     background-color: #222222;
+    display: flex;
 }
 p {
 color: #F3F3F3;
@@ -22,6 +21,7 @@ color: #F3F3F3;
 }
 .Logo {
     background-color: #F0A83E;
+    display: flex;
 }
 h1 {
     color:#FFFFFF;
@@ -34,5 +34,27 @@ display: inline-block;
 color: #FFFFFF;
 }
 /* Main */
+.bowlFondo{
+    background-image: url(img/bowl_and_pet_daities_on_green_background);
+    display: flex;
+    background-size: cover;
+}
+.seccionPata{
+    display: flex;
+    flex-direction: column;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+}
+.tarjetaProductos{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* Footer */
+footer{
+    background-color:#222222;
+color:#FFFFFF;
+align-content: center;
+}

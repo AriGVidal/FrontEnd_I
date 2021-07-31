@@ -1,5 +1,127 @@
-/* Header */
 
-header{
+/* Estilos generales */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 22px;
+    background-color: #f3f3f3;
+}
+
+/* Header */
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+.navegador {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.links {
+    display: flex;
+}
+.links li {
+    padding: 10px;
+}
+.Logopizza {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.Logopizza img {
+    height: 130px;
+    width: 130px;
+}
+h1, h3 {
+    color: #f3f3f3;
+    padding: 15px;
+}
+.pizza {
+    color: #39B24A;
+}
+.front {
+    color: #FC200C;
+}
+
+/* Main */
+
+.container {
+    display: flex;
+    margin: 40px;
+    align-items: center;
+}
+.envio {
+    background-image: url(../img/delivery.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 150px;
+    padding: 10px;
+}
+.envio h3 {
+    color: #FC200C;
+}
+.comprando {
+    color: #f3f3f3;
+    align-items: center;
+}
+.podio {
+    padding: 45px;
+    width: 650px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 900;
+}
+.podio h3 {
+    color: #FC200C;
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+}
+.podio h4 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.podio ol li {
+    margin: 6px;
+}
+/* Footer */
+
+footer {
+    background-color: #222;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*centra eje y*/
+    padding: 20px;
+}
+.linksfooter ol li {
+    margin: 12px;
+}
+.logoPizzaF {
+    display: flex;
+    align-items: center;
 }
