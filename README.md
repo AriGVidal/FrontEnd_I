@@ -12,3 +12,6 @@ https://arigvidal.github.io/FrontEnd_I/CV_Batman
 
 // Proyecto Heroes
 https://arigvidal.github.io/FrontEnd_I/Heroes/
+
+// Proyecto Pizzeria
+https://arigvidal.github.io/FrontEnd_I/Pizza
