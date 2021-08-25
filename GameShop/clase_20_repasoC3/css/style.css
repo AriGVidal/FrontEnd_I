@@ -1,0 +1,82 @@
+ /* Estilos Generales */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* header */
+
+h2{
+    text-align: center;
+}
+section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+}
+.logo span {
+  color: red;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  padding: 10px;
+  color: #fff;
+}
+
+/*  banner  */
+.banner {
+  background: violet url("../img/background.png") no-repeat;
+  height: 500px;
+  background-size: cover;
+  color: #fff;
+  /* flex-wrap: align-contents multilinea*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner__btn{
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+}
+.product__container{
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* separa hijos flex */
+    padding: 40px; /* separa el contenido del borde del padre */
+}
+
+/* media querie */
+@media screen and (max-width:768px){
+    .product__container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    

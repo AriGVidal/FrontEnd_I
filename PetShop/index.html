@@ -1,83 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="ofertas">
             <p>Grandes ofertas en comederos</p>
             <ul class="barraEspArg">
-            <li>
-                Español
-                <i class="fas fa-chevron-down"></i>
-            </li>
-            <li>
-                ARG$
-                <i class="fas fa-chevron-down"></i>
-            </li>
+                <li>
+                    <a href="#">"Español"</a>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li>
+                    <a href="#">"ARG$"</a>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
             </ul>
         </div>
         <div class="barraNavPrincipal">
-            <a href=""><img src="" alt="">
-            <h1><span>Front</span>Cat&Dog</span></h1>
-            <img src="" alt=""></a>
+            <a class="logo" href="index.html">
+                <img src="img/catlogo.svg" alt="logo cat">
+                <h1>
+                    <span>Front</span>
+                    "Cat&Dog"
+                    </span>
+                </h1>
+                <img src="img/doglogo.svg" alt="logo dog">
+            </a>
             <nav>
-                <ul>
-                    <li><a href="">Categorías</a></li>
-                    <li><a href="">Pets</a></li>
-                    <li><a href="">Nosotros</a></li>
-                    <li><a href="">Contactanos</a></li>
+                <ul class="linksnav">
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Pets</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
-            </nav>  
+            </nav>
         </div>
     </header>
     <main>
-        <section class="bowlFondo">
-            <img src="img/bowl_and_pet_daities_on_green_background.svg">
-            <h2>¡Es un placer tenerte aquí! </h2>
-            <p>¡Comederos en descuento!</p>
-            <h2>COMEDEROS</h2>
-            <a href=""></a>
+        <section class="banner">
+            <div class="banner-container">
+                <div class="titulos">
+                    <div class="welcome">¡Es un placer tenerte aquí!</div>
+                    <div class="desc">¡Comederos en descuento!</div>
+                    <div class="boton">
+                        <a href="#">COMEDEROS</a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="seccionPata">
-            <img src="img/pawprint.svg">
-            
-            <h2>Productos Destacados</h2>
-
-            <dl class="lista">
-                <dd>Comederos</dd>
-                <dd>Accesorios</dd>
-                <dd>Comidas</dd>
-            </dl>
-            <div class="tarjetaProductos">
             <div>
-                <img src="img/churrasquito.svg" alt="">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <i class="fas fa-paw" id="patita"></i>
+                <h2 class="productos">Productos Destacados</h2>
+                <p class="categorias">
+                    <a href="#">Comederos</a>
+                    " - "
+                    <a href="#">Accesorios</a>
+                    " - "
+                    <a href="#">Comidas</a>
+                    " - "
+                </p>
             </div>
-            <div><img src="img/comedero.svg" alt="">
-            <p>Comedero para perro</p>
-            <p>$250</p>
-        </div>
-            <div><img src="img/Huesito.svg" alt="">
-            <p>Juguete Huesito</p>
-            <p>$650</p>
-        </div>
+            <div class="tarjetaProductos">
+                <div class="card1">
+                    <div class="detalle">
+                        <h4>Juguete Churrasquito</h4>
+                        <p>
+                            <b>$150</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="detalle">
+                        <h4>Comedero para perro</h4>
+                        <p>
+                            <b>$250</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="detalle">
+                        <h4>Juguete Huesito</h4>
+                        <p>
+                            <b>$650</b>
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
-
+        <section class="formulario">
+            <h3>Contáctanos</h3>
+            <form action method="POST">
+                <fieldset>
+                    <div class="inputs">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" minlength="2"
+                            maxlength="25" required>
+                        <input type="correo" id="correo" name="correo" placeholder="Ingresá tu correo electrónico"
+                            required>
+                        <input type="tel" id="tel" name="tel" placeholder="Teléfono" pattern="[0-9]{3}-[0-9]{5}"
+                            required>
+                    </div>
+                    <div class="botones">
+                        <input type="reset" value="Resetear" class="Resetear">
+                        <input type="submit" value="Enviar" class="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
-        Todos los derechos reservados.
+        <div class="sector-naranja">
+            <div class="suscribete">
+                <h3>
+                    <i class="far fa-envelope"></i>
+                    "Suscríbete para más novedades"
+                </h3>
+            </div>
+            <div class="botonesfooter">
+                <input type="correo" id="correo" name="correo" placeholder="Ingresá tu correo electrónico">
+                <input type="submit" value="Suscribirme">
+            </div>
+        </div>
+        <div class="sector-marron">
+            <div class="contact">
+                <div class="localidad">
+                    <h3>
+                        <i class="fas fa-map-marked-alt"></i>
+                        "Localidad"
+                    </h3>
+                    <h4>Calle - Provincia</h4>
+                </div>
+                <div class="telefono">
+                    <h3>
+                        <i class="fas fa-phone-alt"></i>
+                        "Número de teléfono"
+                    </h3>
+                    <h4>45-111-222-333</h4>
+                </div>
+                <div class="correo">
+                    <h3>
+                        <i class="far fa-envelope"></i>
+                        "Correo eléctronico"
+                    </h3>
+                    <h4>Dirección de correo</h4>
+                </div>
+            </div>
+            <div class="footerlogo">
+                <a class="logo" href="index.html">
+                    <img src="img/catlogo.svg" alt="logo cat">
+                    <h6>
+                        "Front"
+                        <span>Cat&Dog</span>
+                    </h6>
+                    <img src="img/doglogo.svg" alt="logo dog">
+                </a>
+            </div>
+        </div>
+        <div class="copy">
+            Todos los derechos reservados.
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
